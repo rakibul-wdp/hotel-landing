@@ -13,7 +13,7 @@ const Hero = () => {
     >
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
-        <div className="max-w-md flex justify-center">
+        <div className="max-w-md flex flex-col md:flex-row lg:flex-row xl:flex-row justify-center">
           <div className="dropdown dropdown-bottom dropdown-end">
             <label
               tabIndex={0}
@@ -69,7 +69,7 @@ const Hero = () => {
           <div className="dropdown dropdown-bottom dropdown-end">
             <label
               tabIndex={0}
-              className="btn m-1 w-52 bg-base-100 text-black border-0"
+              className="btn m-1 w-52 bg-yellow-500 text-black border-0"
             >
               <span className="mr-2">Check availability</span>
               <BsChevronDown />

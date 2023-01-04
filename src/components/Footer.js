@@ -2,10 +2,10 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className="px-[14.5rem] mb-28">
+    <div className="px-[3rem] md:px-[7rem] lg:px-[10rem] xl:px-[14.5rem] mb-28">
       <h3 className="text-lg font-bold">Property Rules</h3>
       <p className="mb-1">Check-in: 12pm Check-out: 12pm</p>
-      <div className="flex justify-between px-8">
+      <div className="flex flex-col md:flex-row lg:flex-row xl:flex-row justify-between px-8">
         <ul className="list-disc">
           <li>Guest with fester are not allowed</li>
           <li>Guest from comainment comes are not allowed</li>
