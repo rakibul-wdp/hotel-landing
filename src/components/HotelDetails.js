@@ -4,13 +4,14 @@ import imageThree from '../assets/images/download (2).jpeg';
 import imageFour from '../assets/images/download (3).jpeg';
 import imageFive from "../assets/images/download (4).jpeg";
 import imageOne from '../assets/images/download.jpeg';
+import mapImage from '../assets/images/map.png';
 
 const HotelDetails = () => {
   return (
     <div className="mt-16 mb-10">
       <div className="flex justify-center items-center">
         <div
-          className="hero w-[30rem] h-[19.25rem] mr-5"
+          className="hero w-[35rem] h-[25rem] mr-5"
           style={{
             backgroundImage: `url(${imageOne})`,
           }}
@@ -32,11 +33,20 @@ const HotelDetails = () => {
           </div>
         </div>
         <div className="grid grid-cols-2 gap-5">
-          <img className="w-56 h-36" src={imageTwo} alt="" />
-          <img className="w-56 h-36" src={imageThree} alt="" />
-          <img className="w-56 h-36" src={imageFour} alt="" />
-          <img className="w-56 h-36" src={imageFive} alt="" />
+          <img className="w-96 h-[11.9rem]" src={imageTwo} alt="" />
+          <img className="w-96 h-[11.9rem]" src={imageThree} alt="" />
+          <img className="w-96 h-[11.9rem]" src={imageFour} alt="" />
+          <img className="w-96 h-[11.9rem]" src={imageFive} alt="" />
         </div>
+      </div>
+      <div className='flex justify-between px-[14.5rem] mt-5'>
+        <div>
+          <h2 className='text-xl font-bold mb-2'>Hotel Vishal &#64; Airport</h2>
+          <p>104/2/2, National Highway 8, Mahirapur, New <span className='text-blue-500 underline ml-2'>View Map</span></p>
+          <p>Delhi, 110037 New Delhi, India</p>
+          <p className='font-bold my-2'>+91-7654564545, 8107344682</p>
+        </div>
+        <img className='w-36 h-34' src={mapImage} alt="" />
       </div>
     </div>
   );
