@@ -39,15 +39,26 @@ const HotelDetails = () => {
           <img className="w-96 h-[11.9rem]" src={imageFive} alt="" />
         </div>
       </div>
-      <div className='flex justify-between px-[14.5rem] mt-5'>
+      <div className="flex justify-between px-[14.5rem] mt-5">
         <div>
-          <h2 className='text-xl font-bold mb-2'>Hotel Vishal &#64; Airport</h2>
-          <p>104/2/2, National Highway 8, Mahirapur, New <span className='text-blue-500 underline ml-2'>View Map</span></p>
+          <h2 className="text-xl font-bold mb-2">Hotel Vishal &#64; Airport</h2>
+          <p>
+            104/2/2, National Highway 8, Mahirapur, New{" "}
+            <span className="text-blue-500 underline ml-2">View Map</span>
+          </p>
           <p>Delhi, 110037 New Delhi, India</p>
-          <p className='font-bold my-2'>+91-7654564545, 8107344682</p>
+          <p className="font-bold my-2">+91-7654564545, 8107344682</p>
         </div>
-        <img className='w-36 h-34' src={mapImage} alt="" />
+        <img className="w-36 h-34" src={mapImage} alt="" />
       </div>
+      <div className='flex px-[14.5rem] font-bold'>
+        <p className='mr-3'>&diams; Free Parking</p>
+        <p className='mr-3'>&diams; Conference Room</p>
+        <p className='mr-3'>&diams; ATM</p>
+        <p className='mr-3'>&diams; Conference Room</p>
+        <p className='mr-3'>&diams; Play Ground</p>
+      </div>
+      <p className='px-[14.5rem] mt-5'>Located in New Delhi, 5.5Km from Rashirapati Bhavan, Hotel Vishal @ Airport provides accommodation with a restaurant, free private parking and a fit ness center. This 3-star hotel offer an ATM, a confirence service and free WIFI. The accommodstion features a 24-hour front desk, room service and cumency exchange for guest.</p>
     </div>
   );
 };

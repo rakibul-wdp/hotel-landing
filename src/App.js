@@ -9,6 +9,7 @@ function App() {
       <Navbar />
       <Hero />
       <HotelDetails />
+      <div className="divider px-[10rem]"></div>
     </>
   );
 }
